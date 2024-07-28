@@ -6,7 +6,7 @@ class MainClass
     {
 
         string myName;
-        myName = "Daniil";
+        myName = "Dan";
 
         Console.WriteLine(myName);
 
