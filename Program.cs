@@ -5,15 +5,14 @@ class MainClass
     public static void Main(string[] args)
     {
 
-        string MyName = "Daniil";
-        byte MyAge = 23;
-        bool HaveIApet = false;
-        double MyShoeSize = 42.5;
-
-        Console.WriteLine("My name is " + MyName);
-        Console.WriteLine("MyAge " + MyAge);
-        Console.WriteLine("Do I have a pet? " + HaveIApet);
-        Console.WriteLine("My shoe size is " + MyShoeSize);
+        Console.Write("Введите имя: ");
+        var name = Console.ReadLine();
+        Console.Write("Введите возраст: ");
+        var age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Ваше имя {0} и возраст {1}", name, age);
+        Console.Write("Введите дату рождения: ");
+        var birthdate = Console.ReadLine();
+        Console.Write("Ваша дата рождения: " + birthdate);
 
     }
 }
